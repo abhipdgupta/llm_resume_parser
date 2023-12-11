@@ -6,6 +6,7 @@
 ## use python3.10.x and virtual env
 ```
 cd llm_resume_parser/backend
+mkdir uploads parsed_resume
 python -m venv .venv
 
 ```
@@ -22,6 +23,6 @@ uvicorn main:app --reload
 ```
 cd llm_resume_parser/frontend
 npm ci
-npm run dec
+npm run dev
 
 ```
