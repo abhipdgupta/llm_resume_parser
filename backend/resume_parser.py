@@ -46,6 +46,7 @@ class OutputFormat(BaseModel):
     Certificates: Optional[Any] = None
     Projects: Optional[Any] = None
     Achievements: Optional[Any] = None
+    Interests:Optional[Any]=None
     Volunteer: Optional[Any] = None
 
 # class OutputFormat(BaseModel):
@@ -61,7 +62,7 @@ class OutputFormat(BaseModel):
 
 
 def check_job_compatibility(parsed_resume: str):
-    llm = ChatOpenAI(temperature=0.5, model_name="gpt-3.5-turbo")
+    llm = ChatOpenAI(temperature=1, model_name="gpt-3.5-turbo")
 
     template = """check that the give resume {parsed_resume}
     
