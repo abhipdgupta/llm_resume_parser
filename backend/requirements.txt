@@ -1,0 +1,7 @@
+python-dotenv
+openai
+langchain
+fastapi
+uvicorn
+pypdf
+fastapi

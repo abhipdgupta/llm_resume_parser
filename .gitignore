@@ -1,0 +1,7 @@
+__pycache__
+.venv
+parsed_resume
+uploads
+.env
+
+node_modules
